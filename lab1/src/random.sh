@@ -7,9 +7,7 @@ MAXCOUNT=150
 count=1
 
 echo
-echo "$MAXCOUNT случайных чисел:"
-echo "-----------------"
-while [ "$count" -le $MAXCOUNT ]      # Генерация 10 ($MAXCOUNT) случайных чисел.
+while [ "$count" -le $MAXCOUNT ]      # Генерация 150 ($MAXCOUNT) случайных чисел.
 do
   number=$RANDOM
   echo $number
